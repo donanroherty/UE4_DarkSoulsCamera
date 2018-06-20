@@ -72,7 +72,7 @@ void UDSLockArmComponent::TickComponent(float DeltaTime, enum ELevelTick TickTyp
 		}
 
 		// Draw target inclusion sphere
-		DrawDebugSphere(GetWorld(), GetOwner()->GetActorLocation(), MaxTargetLockDistance, 32, FColor(0.f, 0.f, 0.f, 0.0f));
+		DrawDebugSphere(GetWorld(), GetOwner()->GetActorLocation(), MaxTargetLockDistance, 32, FColor::Cyan);
 
 		UKismetSystemLibrary::DrawDebugString(this, FVector::ZeroVector, bUseSoftLock ? "Soft-lock Enabled" : "Soft-lock Disabled", GetOwner(), FLinearColor::Green);
 		
