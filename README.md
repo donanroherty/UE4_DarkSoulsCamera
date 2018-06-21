@@ -4,6 +4,8 @@
 
 This is a fairly accurate recreation of a Dark Souls style camera system in Unreal Engine 4.18. It supports locking to targets, scrolling between available targets, camera relative character movement and an optional soft-lock system that automatically manages locking to closest target in range. Project is built in C++ with some blueprint logic for anim trees.
 
+Build here:  https://ronandoherty.com/blog/ue4-dark-souls-camera-system/
+
 ## Controls
 
 | Input                | Mouse/Keyboard                    | Gamepad                |
