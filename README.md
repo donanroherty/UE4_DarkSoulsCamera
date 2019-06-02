@@ -2,7 +2,7 @@
 
 ## About
 
-This is a fairly accurate recreation of a Dark Souls style camera system in Unreal Engine 4.19. It supports locking to targets, scrolling between available targets, camera relative character movement and an optional soft-lock system that automatically manages locking to closest target in range. Project is built in C++ with some blueprint logic for anim trees.
+This is a fairly accurate recreation of a Dark Souls style camera system in Unreal Engine. It supports locking to targets, scrolling between available targets, camera relative character movement and an optional soft-lock system that automatically manages locking to closest target in range. Project is built in C++ with some blueprint logic for anim trees.
 
 Video: https://youtu.be/6U_VeUWlU7s
 
@@ -49,7 +49,7 @@ Target switching is automatic when using soft-lock and the original target leave
 
 Adding this component to an actor makes it targetable. Actors can have multiple targets allowing for large enemies with multiple target points. DSTargetComponent extends USphereComponent and is detected using a component overlap test.
 
-### Improvements
+### Future Improvements
 
 - Camera should lock to target at an angle, placing enemy in the upper portion of the screen rather than dead center hiding the enemy behind the player model.
 
